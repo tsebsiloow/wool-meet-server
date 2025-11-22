@@ -1,0 +1,19 @@
+{
+  "name": "socketio-chat-auth-mongo-redis",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0",
+    "ioredis": "^5.3.0",
+    "@socket.io/redis-adapter": "^8.0.0",
+    "socket.io": "^4.7.2",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2"
+  }
+}
