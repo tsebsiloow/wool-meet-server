@@ -1,0 +1,72 @@
+# ============================
+# Node / Socket.IO Server
+# ============================
+
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+tmp/
+temp/
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Env files (絶対にアップロードしない)
+.env
+.env.*
+!.env.example
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.swp
+
+# Docker
+docker-data/
+docker-compose.override.yml
+
+# Cache
+.cache/
+*.tmp
+
+# Coverage / test artifacts
+coverage/
+*.lcov
+
+# PM2 logs
+.pids
+pids/
+PM2.pid
+*.pm2.log
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Redis / Mongo dumps
+dump.rdb
+*.rdb
+*.aof
+*.bson
+*.wt
+
+# Uploads (必要に応じて保持)
+uploads/
+public/uploads/
+
+# Local certificates
+cert/
+*.pem
+*.key
+*.crt
